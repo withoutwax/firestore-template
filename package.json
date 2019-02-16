@@ -2,11 +2,11 @@
   "name": "generator-withoutwax-firestore",
   "version": "0.0.0",
   "description": "A Scaffold for native HTML, CSS and JavaScript with Firestore config",
-  "homepage": "",
+  "homepage": "https://withoutwax.me",
   "author": {
     "name": "Will Kim",
     "email": "rlagmlckd@gmail.com",
-    "url": "withoutwax.me"
+    "url": "https://withoutwax.me"
   },
   "files": [
     "generators"

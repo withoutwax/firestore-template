@@ -37,9 +37,10 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copy(
-      this.templatePath('README.md'),
-      this.destinationPath('README.md')
+      this.templatePath('dist'), // It copies a folder as well.
+      this.destinationRoot()
     );
+
   }
 
   install() {
